@@ -2,14 +2,13 @@
 # yarn lockfile v1
 
 
-"@cubejs-backend/query-orchestrator@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.5.0.tgz#27670e469076467708dc523cb1e085aee4dbd38d"
-  integrity sha512-uWp8qe9Rh6KoBlclF1Nq3iJaRNxEvMOiLXqvLk9jbRckyHxsrs47k/1i3Un+8sZYH1zyvqPGjh8AqHcevMRbsw==
+"@cubejs-backend/query-orchestrator@^0.9.14":
+  version "0.9.14"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.9.14.tgz#87c18c05dbfa838125a15ec7e8fda04c119cacae"
+  integrity sha512-3Lx25gPll9nODm//AUY28hFSd2fH1Mib6+GJODgJbp24cGU+vNdmCu3nGXEz7qXnVUdKV8h5rJkVgvTphBJ/Vw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
-    util-promisifyall "^1.0.4"
 
 "@google-cloud/bigquery@^2.1.0":
   version "2.1.0"
@@ -349,9 +348,9 @@ ms@^2.1.1:
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
 node-fetch@^2.2.0, node-fetch@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@^0.8.0:
   version "0.8.2"
@@ -507,11 +506,6 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util-promisifyall@^1.0.4:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/util-promisifyall/-/util-promisifyall-1.0.6.tgz#03439a5a76461e1f71f76954d945cffc8bd6aad8"
-  integrity sha512-l+o62sbaqStC1xt7oEhlafC4jWBgkOjBXvlPwxkvOYmNqpY8dNXuKdOa+VHjkYz2Fw98e0HvJtNKUg0+6hfP2w==
 
 uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
