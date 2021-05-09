@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cubejs-backend/api-gateway@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.6.2.tgz#64a8f6f1975863907d6e38300160ca0fe63ad3f5"
-  integrity sha512-Dtv6GblNvNYK1y3Gb6S3lG1woULVgEWQpYttrKs3x8grUSF4AP7y+vpOpgq3abMaJhEG3FMR8hrbp308tUlq7A==
+"@cubejs-backend/api-gateway@^0.9.12":
+  version "0.9.20"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.9.20.tgz#7c30549b860f9f9d207c745606f363f0b2383a1a"
+  integrity sha512-OQTY/KRApD3TJasmajN0L55lZIZkWm3+AL3r3hh4s7tqvcSzAEX/rE3DzfQE3Q64dpTp57ylgc7wFhkybSnJ9w==
   dependencies:
     chrono-node "^1.3.11"
     joi "^14.0.6"
@@ -13,19 +13,18 @@
     moment "^2.24.0"
     ramda "^0.25.0"
 
-"@cubejs-backend/query-orchestrator@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.6.0.tgz#5650556f9d9397777cc44384412dae68a3e6bb8d"
-  integrity sha512-Z04QvH+ZFHmztClHcnf4xA7LRxPcYHAI+c+6OcBzlNaz6GrIXyljlfhLqL904XrRm3ykuuW4WSp2HZ6pg9qJ9g==
+"@cubejs-backend/query-orchestrator@^0.9.14":
+  version "0.9.14"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.9.14.tgz#87c18c05dbfa838125a15ec7e8fda04c119cacae"
+  integrity sha512-3Lx25gPll9nODm//AUY28hFSd2fH1Mib6+GJODgJbp24cGU+vNdmCu3nGXEz7qXnVUdKV8h5rJkVgvTphBJ/Vw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
-    util-promisifyall "^1.0.4"
 
-"@cubejs-backend/schema-compiler@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.6.0.tgz#6c8a5c0cb2ec50e32bd66c19e3df4a08c4b26b2d"
-  integrity sha512-Rm76ice0kmPfocs1qbK70RvUCdCsqs/2vI/D/0hgqpxYCw8vxxUN/3aZE23673QA8f4yMdBT0Kk3zAS39dXEuA==
+"@cubejs-backend/schema-compiler@^0.9.16":
+  version "0.9.23"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.9.23.tgz#1f5ff4411307079aa050bd3aad15fb67e1dc7c6d"
+  integrity sha512-4f3mWaDOp0VmYFiZGU3atjkTLSfQ3j4CdHtQVGtTbNdE9F4E1nDtpx42vAVkmjmThyxl18zbJgqA9Ctd9aM6hA==
   dependencies:
     babel-generator "^6.25.0"
     babel-traverse "^6.25.0"
@@ -1077,9 +1076,9 @@ lodash.once@^4.0.0:
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
 
 lodash@^4.17.4, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -1730,11 +1729,6 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util-promisifyall@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/util-promisifyall/-/util-promisifyall-1.0.4.tgz#82047e87e0637ca799b3480cd6ede3ddeedadf09"
-  integrity sha512-dgR84x56iVKsSMNo5GGED+xciS1bLS84Wsi5sYHW59Wf/P0mVdJckx2o7vLHrChG94J4c/T9EXoRJSoNy6qSEQ==
 
 uuid@^3.2.1:
   version "3.3.2"
