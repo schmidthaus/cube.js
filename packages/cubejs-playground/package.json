@@ -16,7 +16,7 @@
     "chart.js": "^2.7.3",
     "codesandbox-import-utils": "^2.1.1",
     "history": "^4.9.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prettier": "^1.16.4",
     "prismjs": "^1.15.0",
     "prop-types": "^15.7.2",
