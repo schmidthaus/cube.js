@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cubejs-backend/api-gateway@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.6.2.tgz#64a8f6f1975863907d6e38300160ca0fe63ad3f5"
-  integrity sha512-Dtv6GblNvNYK1y3Gb6S3lG1woULVgEWQpYttrKs3x8grUSF4AP7y+vpOpgq3abMaJhEG3FMR8hrbp308tUlq7A==
+"@cubejs-backend/api-gateway@^0.9.12":
+  version "0.9.20"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.9.20.tgz#7c30549b860f9f9d207c745606f363f0b2383a1a"
+  integrity sha512-OQTY/KRApD3TJasmajN0L55lZIZkWm3+AL3r3hh4s7tqvcSzAEX/rE3DzfQE3Q64dpTp57ylgc7wFhkybSnJ9w==
   dependencies:
     chrono-node "^1.3.11"
     joi "^14.0.6"
@@ -13,19 +13,18 @@
     moment "^2.24.0"
     ramda "^0.25.0"
 
-"@cubejs-backend/query-orchestrator@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.6.0.tgz#5650556f9d9397777cc44384412dae68a3e6bb8d"
-  integrity sha512-Z04QvH+ZFHmztClHcnf4xA7LRxPcYHAI+c+6OcBzlNaz6GrIXyljlfhLqL904XrRm3ykuuW4WSp2HZ6pg9qJ9g==
+"@cubejs-backend/query-orchestrator@^0.9.14":
+  version "0.9.14"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.9.14.tgz#87c18c05dbfa838125a15ec7e8fda04c119cacae"
+  integrity sha512-3Lx25gPll9nODm//AUY28hFSd2fH1Mib6+GJODgJbp24cGU+vNdmCu3nGXEz7qXnVUdKV8h5rJkVgvTphBJ/Vw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
-    util-promisifyall "^1.0.4"
 
-"@cubejs-backend/schema-compiler@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.6.0.tgz#6c8a5c0cb2ec50e32bd66c19e3df4a08c4b26b2d"
-  integrity sha512-Rm76ice0kmPfocs1qbK70RvUCdCsqs/2vI/D/0hgqpxYCw8vxxUN/3aZE23673QA8f4yMdBT0Kk3zAS39dXEuA==
+"@cubejs-backend/schema-compiler@^0.9.16":
+  version "0.9.23"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.9.23.tgz#1f5ff4411307079aa050bd3aad15fb67e1dc7c6d"
+  integrity sha512-4f3mWaDOp0VmYFiZGU3atjkTLSfQ3j4CdHtQVGtTbNdE9F4E1nDtpx42vAVkmjmThyxl18zbJgqA9Ctd9aM6hA==
   dependencies:
     babel-generator "^6.25.0"
     babel-traverse "^6.25.0"
@@ -1164,9 +1163,9 @@ moment-range@^4.0.1:
     es6-symbol "^3.1.0"
 
 moment-timezone@^0.5.13:
-  version "0.5.23"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
-  integrity sha512-WHFH85DkCfiNMDX5D3X7hpNH3/PUhjTGcD0U1SgfBGZxJ3qUmJh5FdvaFjcClxOvB3rzdfj4oRffbI38jEnC1w==
+  version "0.5.37"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
+  integrity sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg==
   dependencies:
     moment ">= 2.9.0"
 
@@ -1175,15 +1174,10 @@ moment@2.21.0:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
   integrity sha512-TCZ36BjURTeFTM/CwRcViQlfkMvL1/vFISuNLO5GkcVm1+QHfbSiNqZuWeMFjj1/3+uAjXswgRk30j1kkLYJBQ==
 
-"moment@>= 2.9.0":
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.23.0.tgz#759ea491ac97d54bac5ad776996e2a58cc1bc225"
-  integrity sha512-3IE39bHVqFbWWaPOMHZF98Q9c3LDKGTmypMiTM2QygGXXElkFWIH7GxfmlwmY2vwa+wmNsoYZmG2iusf1ZjJoA==
-
-moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+"moment@>= 2.9.0", moment@^2.24.0:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 ms@2.0.0:
   version "2.0.0"
@@ -1730,11 +1724,6 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util-promisifyall@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/util-promisifyall/-/util-promisifyall-1.0.4.tgz#82047e87e0637ca799b3480cd6ede3ddeedadf09"
-  integrity sha512-dgR84x56iVKsSMNo5GGED+xciS1bLS84Wsi5sYHW59Wf/P0mVdJckx2o7vLHrChG94J4c/T9EXoRJSoNy6qSEQ==
 
 uuid@^3.2.1:
   version "3.3.2"
